@@ -4,7 +4,7 @@ Welcome to the computer science faq, the place to hopefully answer *all* of your
 ## Table of Contents
 
 ### Comp 51
-    - [Arrays](51/Arrays.md)
+- [Arrays](51/Arrays.md)
 
 # My code is broken! What do I do?
 ![expanding-brain](images/expanding-brain.jpg)
