@@ -1,6 +1,11 @@
 # compsci-faq
 Welcome to the computer science faq, the place to hopefully answer *all* of your questions.
 
+## Table of Contents
+
+1. Comp 51
+- [Arrays](51/Arrays.md)
+
 # My code is broken! What do I do?
 ![expanding-brain](images/expanding-brain.jpg)
 
