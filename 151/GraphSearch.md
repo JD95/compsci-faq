@@ -17,4 +17,4 @@ Uses a queue.
 Always gives optimal Solution.
 
 # Other Resources
-- Graphc Search Visualization: https://visualgo.net/en/dfsbfs
+- Graph Search Visualization: https://visualgo.net/en/dfsbfs
