@@ -3,8 +3,14 @@ Welcome to the computer science faq, the place to hopefully answer *all* of your
 
 ## Table of Contents
 
-### Comp 51
+### Intro to Computer Science (51)
 - [Arrays](51/Arrays.md)
+
+### Artificial Intelligence
+- [GraphSearch](151/GraphSearch.md)
+
+### Systems and Networks (170)
+- [Assembly](170/Assembly.md)
 
 # My code is broken! What do I do?
 ![expanding-brain](images/expanding-brain.jpg)
