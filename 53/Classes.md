@@ -9,33 +9,35 @@ For example, the combination of two integers can represent coordinates. A string
 The functions associated with classes are usually called "methods" and are different from normal functions. Methods have access to the values which are defined by the class and associated with an object (defined below).
 
 ### An example class in C++
-> class Coord {
->   int x; // Some ints
->   int y; 
->
->  public:
->
->  // Given some Coord, increment it's y
->  void goUp(){
->    y += 1;
->  }
->
->  // Given some Coord, increment it's x
->  void goLeft(){
->    x -= 1;
->  }
->
->  // extract the value of x
->  int getX() { return x; }
->
->  // change the value of x
->  void setX(int value) { x = value; }
->
->  int getY() { return y; }
->
->  void setY(int value) { y = value; }
->
-> };
+```cpp
+class Coord {
+  int x; // Some ints
+  int y; 
+
+ public:
+
+ // Given some Coord, increment it's y
+ void goUp(){
+   y += 1;
+ }
+
+ // Given some Coord, increment it's x
+ void goLeft(){
+   x -= 1;
+ }
+
+ // extract the value of x
+ int getX() { return x; }
+
+ // change the value of x
+ void setX(int value) { x = value; }
+
+ int getY() { return y; }
+
+ void setY(int value) { y = value; }
+
+};
+```
 
 For an explanation of what the "public:" line does, see "What is an Object" below.
 
@@ -43,25 +45,31 @@ For an explanation of what the "public:" line does, see "What is an Object" belo
 
 Like there are many values which are ints or doubles, user defined types (classes) can also have many independent values. Typically, a specific version of a class is called an object. 
 
-> Coord point;
+```cpp
+Coord point;
+```
 
 Objects contain the values which are defined by it's class. So a Coord object would have two ints. Note that the programmer only has access to those values which are marked as "public". Typically, classes are defined so an object's methods will be public, but it's _member values_ are private. This prevents programmers from accidentally changes values when they don't mean to, or to otherwise restrict what kinds of changes are made to these values.
 
-> int xCoord = point.getX();
-> int yCoord = point.getY();
+```cpp
+int xCoord = point.getX();
+int yCoord = point.getY();
+```
 
 Remember that a class can also define functions which are associated with the objects. Also note that every object can have different values from eachother. Although they all share the same class, they exist independently of eachother. Just like how setting one int doesn't change the value of all the others, changing the value of an object only affects that object.
 
-> Coord a;
-> Coord b;
->
-> a.setY(0);
-> b.setY(0);
->
-> a.goUp();
->
-> cout << a.y << "\n"; // prints "1"
-> cout << b.y << "\n"; // prints "0"
+```cpp
+Coord a;
+Coord b;
+
+a.setY(0);
+b.setY(0);
+
+a.goUp();
+
+cout << a.y << "\n"; // prints "1"
+cout << b.y << "\n"; // prints "0"
+```
 
 
 ## What is a Constructor?
@@ -71,16 +79,18 @@ Constructors are ways to create objects of a class with specific starting values
 Constructors are just functions with the same name as the class. If it takes no inputs, then it is a _default constructor_.
 
 ### An Example of a Class with Several Constructors
-> class Coord {
->   int x; // Some ints
->   int y; 
->
->  public:
->
->  // default constructor
->  Coord() : x(0), y(0) {}
->
->  // Typical constructor
->  Coord(int i, int j) : x(i), y(j) {}
->
-> };
+```cpp
+class Coord {
+  int x; // Some ints
+  int y; 
+
+public:
+
+  // default constructor
+  Coord() : x(0), y(0) {}
+
+  // Typical constructor
+  Coord(int i, int j) : x(i), y(j) {}
+
+};
+```
