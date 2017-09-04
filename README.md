@@ -6,10 +6,10 @@ Welcome to the computer science faq, the place to hopefully answer *all* of your
 ### Intro to Computer Science (51)
 - [Arrays](51/Arrays.md)
 
-### Data Structures
+### Data Structures (53)
 - [Classes](53/Classes.md)
 
-### Artificial Intelligence
+### Artificial Intelligence (151)
 - [Graph Search](151/GraphSearch.md)
 
 ### Systems and Networks (170)
