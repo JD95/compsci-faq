@@ -6,6 +6,9 @@ Welcome to the computer science faq, the place to hopefully answer *all* of your
 ### Intro to Computer Science (51)
 - [Arrays](51/Arrays.md)
 
+### Data Structures
+- [Classes](53/Classes.md)
+
 ### Artificial Intelligence
 - [Graph Search](151/GraphSearch.md)
 
