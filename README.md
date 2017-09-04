@@ -9,6 +9,9 @@ Welcome to the computer science faq, the place to hopefully answer *all* of your
 ### Data Structures (53)
 - [Classes](53/Classes.md)
 
+### Application Development (55)
+- [Refactorings](55/Refactorings.md)
+
 ### Artificial Intelligence (151)
 - [Graph Search](151/GraphSearch.md)
 
