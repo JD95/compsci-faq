@@ -1,3 +1,4 @@
+ 
 # compsci-faq
 Welcome to the computer science faq, the place to hopefully answer *all* of your questions.
 
@@ -25,5 +26,6 @@ Computer science is hard and often things break and you have no idea why. Luckil
 
 ### Resources:
 1. [Stack Overflow](https://stackoverflow.com/) a site with answered questions about programming.
+2. [Discord Server](https://discord.gg/eXv6Saw) a place for slackers to try and not slack so hard.
 
 ![expanding-brain](images/expanding-brain.jpg)
