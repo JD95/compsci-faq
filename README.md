@@ -8,6 +8,7 @@ Welcome to the computer science faq, the place to hopefully answer *all* of your
 
 ### Data Structures (53)
 - [Classes](53/Classes.md)
+- [Overloading](53/Overloading.md)
 
 ### Application Development (55)
 - [Refactorings](55/Refactorings.md)
